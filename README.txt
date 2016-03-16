@@ -1,0 +1,1 @@
+A simple wrapper for the American Fuzzy Lop fuzzer when you want to fuzz CGI binaries that usually run on a web server. With QEMU you can even fuzz close-source binaries.
