@@ -1,0 +1,37 @@
+#
+# AFL dictionary for HTTP
+# -----------------------
+#
+# Only basic syntax
+#
+# Created by Tobias Ospelt <floyd@floyd.ch>
+#
+method_get="GET"
+method_post="POST"
+method_trace="TRACE"
+method_OPTIONS="OPTIONS"
+
+url_protocol_http="http://"
+url_protocol_https="https://"
+
+url_hostport_ipv4="www.example.com:80"
+url_hostport_ipv6="[3ffe:1900:4545:3:200:f8ff:fe21:67cf]:80"
+
+url_path="/a/i.html"
+url_path_query_del="?"
+url_query="a=1&2=b"
+url_query_anker_del="#"
+
+version_0="HTTP/1.0"
+version_1="HTTP/1.1"
+version_2="HTTP/2.0"
+
+header_host="Host:"
+header_cookie="Cookie:"
+header_location="Location:"
+header_useragent="User-Agent:"
+header_accept="Accept:"
+header_acceptlanguage="Accept-Language:"
+header_acceptencoding="Accept-Encoding:"
+header_connection="Connection:"
+header_contentlenght="Content-Length:"
